@@ -5,9 +5,16 @@
 <h1>Azure Account and Storage Lab: File Management and Resource Group Operations</h1>
 Learn how to set up an Azure account, create a resource group, and manage file storage. Explore tasks such as uploading, editing, and downloading files within the Azure Portal. Practice proper resource management by deleting the resource group and verifying its successful removal.<br />
 
-<h2>Video Demonstration</h2>
+<h2>List Summary</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- Create your Azure account (Tenant) and Subscription.
+- Within the Azure Portal, create a Resource Group.
+- Create a Storage Account within the previously created Resource Group.
+- Upload a file from your local desktop into the Storage Account.
+- Edit the file within the Storage Account in the Azure Portal.
+- Download the file to observe the changes.
+- Delete the Resource Group created earlier to avoid incurring costs.
+- Verify the successful deletion of the Resource Group.
 
 <h2>Environments and Technologies Used</h2>
 
