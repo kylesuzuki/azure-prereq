@@ -3,7 +3,7 @@
 </p>
 
 <h1>Azure Account and Storage Lab: File Management and Resource Group Operations</h1>
-Learn how to set up an Azure account, create a resource group, and manage file storage. Explore tasks such as uploading, editing, and downloading files within the Azure Portal. Practice proper resource management by deleting the resource group and verifying its successful removal.<br />
+Learn how to set up an Azure account, create a resource group, and manage file storage in this beginner-friendly tutorial. Explore tasks such as uploading, editing, and downloading files within the Azure Portal. Practice proper resource management by deleting the resource group and verifying its successful removal. This tutorial aims to introduce basic concepts of Azure storage accounts while providing a step-by-step walkthrough.<br />
 
 <h2>List Summary</h2>
 
@@ -19,8 +19,7 @@ Learn how to set up an Azure account, create a resource group, and manage file s
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Notepad application
 
 <h2>Operating Systems Used </h2>
 
@@ -28,11 +27,8 @@ Learn how to set up an Azure account, create a resource group, and manage file s
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Computer with Internet Connection
+- Credit Card (required to create an Azure account)
 
 <h2>Installation Steps</h2>
 
@@ -58,74 +54,112 @@ Learn how to set up an Azure account, create a resource group, and manage file s
       <li>Note: A Resource Group is essentially a folder</li>
     </ul>
   </li>
-  <li>Click Create</li>
-  <li>Choose your Subscription (i.e., Azure subscription 1)
+  <li>Click 'Create'</li>
+  <li>Choose your Subscription (i.e., 'Azure subscription 1')
     <ul>
       <li>Note: A Subscription provides access to Azure services while enabling the separatation and management of resources, usage, and billing. </li>
     </ul>
   </li>
   <li>Write a name for your resource group (i.e., RG-Lab-1)</li>
-  <li>Pick a Region where the resource group is being created (i.e., (US) West US 2)</li>
+  <li>Pick a Region where the resource group is being created (i.e., '(US) West US 2')</li>
   <li>For now, skip creating a tag since not necessary
     <ul>
       <li>Note: A tag is used to effectively track data and metadata within your organization</li>
     </ul>
   </li>
-  <li>Wait for validation on Review + create, then click create</li>
+  <li>Wait for validation on "Review + create", then click 'Create'</li>
 </ul>
 </p>
 
 
 <h3>Create a Storage Account within the previously created Resource Group.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Vesiv6r.png" height="80%" width="80%" alt="Storage Group creation"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ul>
+  <li>Search for Storage Account
+    <ul>
+      <li>Note: A Storage Account is one of the many resource types available in Azure, offering functionality akin to a very powerful Dropbox or Google Drive.</li>
+    </ul>
+  </li>
+  <li>Click 'Create'</li>
+  <li>Choose your Subscription (i.e., 'Azure subscription 1')</li>
+  <li>Choose your resource group (i.e., 'RG-Lab-1')</li>
+  <li>Write a name for your storage account (i.e., joshcoursecareerslab01)</li>
+  <li>Pick a Region where the storage account is being created (i.e., '(US) West US 2')</li>
+  <li>Choose your Performance (i.e., 'Standard')</li>
+  <li>Choose your Redundancy (i.e., 'Geo-redundant storage (GRS)')</li>
+  <li>Wait for validation on "Review + create" then click 'Create'</li>
+</ul>
 </p>
-<br />
 
 <h3>Upload a file from your local desktop into the Storage Account.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vvNXCvY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ul>
+  <li>Open the storage account you just created (i.e., 'joshcoursecareerslab01')</li>
+  <li>Click 'Containers'
+    <ul>
+      <li>Note: a Container is like an individual folder inside of our Storage Account</li>
+    </ul>
+  </li>
+  <li>Click '+ Container' to create a Container</li>
+  <li>Write a name for your container (i.e., cclab01)</li>
+  <li>Choose Public access level (i.e., 'Private (no anonymous access)')</li>
+  <li>Click 'Create', then open the container</li>
+  <li>Open the Notepad application on your computer, write something (i.e., Hello World), and save the file</li>
+  <li>Click '+ Upload' and select the notepad file to upload</li>
+</ul>
 </p>
-<br />
 
 <h3>Edit the file within the Storage Account in the Azure Portal.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Mt2AoZa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ul>
+  <li>Click on the "three dots" next to your uploaded Notepad file</li>
+  <li>Click 'View/edit'</li>
+  <li>Edit the file directly from inside the storage account container (make some changes to the text as you wish)</li>
+  <li>Click 'Save'</li>
+</ul>
 </p>
-<br />
 
 <h3>Download the file to observe the changes.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UXkpAM1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ul>
+  <li>Click 'Download'</li>
+  <li>Open the downloaded file on your computer and observe the edits</li>
+</ul>
 </p>
-<br />
 
 <h3>Delete the Resource Group created earlier to avoid incurring costs.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IJWJVFF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ul>
+  <li>Search for Resource Group</li>
+  <li>Click on your resource group (i.e., ‘RG-Lab-1’)</li>
+  <li>Click 'Delete resource group'</li>
+  <li>Type or copy and paste the name of your resource group (i.e., RG-Lab-1) to confirm the deletion</li>
+  <li>Click ‘Delete’</li>
+</ul>
 </p>
-<br />
 
 <h3>Verify the successful deletion of the Resource Group.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T5lFp7W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ul>
+  <li>Search for Resource Group</li>
+  <li>Confirm that your resource group has been deleted</li>
+</ul>
 </p>
-<br />
