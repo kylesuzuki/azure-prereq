@@ -49,7 +49,7 @@ Learn how to set up an Azure account, create a resource group, and manage file s
 
 <h3>Within the Azure Portal, create a Resource Group.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/D4LlhJ3.png" height="80%" width="80%" alt="RG creation"/>
 </p>
 <p>
 <ul>
@@ -61,14 +61,14 @@ Learn how to set up an Azure account, create a resource group, and manage file s
   <li>Click Create</li>
   <li>Choose your Subscription (i.e., Azure subscription 1)
     <ul>
-      <li>Note: A Subscription essentially segregates accounts for different credit cards</li>
+      <li>Note: A Subscription provides access to Azure services while enabling the separatation and management of resources, usage, and billing. </li>
     </ul>
   </li>
   <li>Write a name for your resource group (i.e., RG-Lab-1)</li>
   <li>Pick a Region where the resource group is being created (i.e., (US) West US 2)</li>
   <li>For now, skip creating a tag since not necessary
     <ul>
-      <li>Note: A tag is essentially if you want to keep track of metadata (i.e., Name is Creator with Value as Kyle)</li>
+      <li>Note: A tag is used to effectively track data and metadata within your organization</li>
     </ul>
   </li>
   <li>Wait for validation on Review + create, then click create</li>
