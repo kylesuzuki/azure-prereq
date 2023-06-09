@@ -45,7 +45,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 
 <h3>Within the Azure Portal, create a Resource Group.</h3>
 <p>
-<img src="https://i.imgur.com/D4LlhJ3.png" height="80%" width="80%" alt="RG creation"/>
+<img src="https://i.imgur.com/D4LlhJ3.png" height="80%" width="80%" alt="RG Creation"/>
 </p>
 <p>
 <ul>
@@ -96,7 +96,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 
 <h3>Upload a file from your local desktop into the Storage Account.</h3>
 <p>
-<img src="https://i.imgur.com/vvNXCvY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vvNXCvY.png" height="80%" width="80%" alt="File Upload"/>
 </p>
 <p>
 <ul>
@@ -117,7 +117,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 
 <h3>Edit the file within the Storage Account in the Azure Portal.</h3>
 <p>
-<img src="https://i.imgur.com/Mt2AoZa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Mt2AoZa.png" height="80%" width="80%" alt="File Edit"/>
 </p>
 <p>
 <ul>
@@ -130,7 +130,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 
 <h3>Download the file to observe the changes.</h3>
 <p>
-<img src="https://i.imgur.com/UXkpAM1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UXkpAM1.png" height="80%" width="80%" alt="Download and Observe"/>
 </p>
 <p>
 <ul>
@@ -141,7 +141,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 
 <h3>Delete the Resource Group created earlier to avoid incurring costs.</h3>
 <p>
-<img src="https://i.imgur.com/IJWJVFF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IJWJVFF.png" height="80%" width="80%" alt="Delete RG"/>
 </p>
 <p>
 <ul>
@@ -155,7 +155,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 
 <h3>Verify the successful deletion of the Resource Group.</h3>
 <p>
-<img src="https://i.imgur.com/T5lFp7W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T5lFp7W.png" height="80%" width="80%" alt="Delete Verified"/>
 </p>
 <p>
 <ul>
