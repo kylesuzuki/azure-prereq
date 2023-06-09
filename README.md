@@ -3,7 +3,7 @@
 </p>
 
 <h1>Azure Account and Storage Lab: File Management and Resource Group Operations</h1>
-Learn how to set up an Azure account, create a resource group, and manage file storage in this beginner-friendly tutorial. Explore tasks such as uploading, editing, and downloading files within the Azure Portal. Practice proper resource management by deleting the resource group and verifying its successful removal. This tutorial aims to introduce basic concepts of Azure storage accounts while providing a step-by-step walkthrough.<br />
+This tutorial aims to introduce basic concepts of Azure storage accounts while providing a step-by-step walkthrough. Learn how to set up an Azure account, create a resource group, and manage file storage in this beginner-friendly tutorial. Explore tasks such as uploading, editing, and downloading files within the Azure Portal. Practice proper resource management by deleting the resource group and verifying its successful removal.<br />
 
 <h2>List Summary</h2>
 
