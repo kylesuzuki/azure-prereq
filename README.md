@@ -38,7 +38,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 </p>
 <ul>
   <li>
-    <a href="https://azure.microsoft.com/en-us/free/">Create an Azure account</a> (Tenant) and Subscription if you haven't done so already.
+    <a href="https://azure.microsoft.com/en-us/free/">Create an Azure account (Tenant) and Subscription</a> if you haven't done so already.
   </li>
 </ul>
 
