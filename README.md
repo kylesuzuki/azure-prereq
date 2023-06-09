@@ -13,7 +13,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
 - Upload a file from your local desktop into the Storage Account.
 - Edit the file within the Storage Account in the Azure Portal.
 - Download the file to observe the changes.
-- Delete the Resource Group created earlier to avoid incurring costs.
+- Delete the Resource Group to avoid incurring costs.
 - Verify the successful deletion of the Resource Group.
 
 <h2>Environments and Technologies Used</h2>
