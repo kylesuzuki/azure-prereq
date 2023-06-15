@@ -41,7 +41,7 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
     <a href="https://azure.microsoft.com/en-us/free/">Create an Azure account (Tenant) and Subscription</a> if you haven't done so already.
   </li>
 </ul>
-
+</p>
 
 <h3>Within the Azure Portal, create a Resource Group.</h3>
 <p>
@@ -70,7 +70,6 @@ This tutorial aims to introduce basic concepts of Azure storage accounts while p
   <li>Wait for validation on "Review + create", then click 'Create'</li>
 </ul>
 </p>
-
 
 <h3>Create a Storage Account within the previously created Resource Group.</h3>
 <p>
